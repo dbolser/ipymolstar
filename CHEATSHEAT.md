@@ -16,8 +16,8 @@ view = PDBeMolstar(custom_data=custom)
 ```
 
 ## Filtering, Selecting and Focusing
-Selections are specified with dictionaries known as *query parameters*. They can target chains, residues, atoms and more【F:src/ipymolstar/pdbemolstar.py†L27-L57】.
-Use the `color` method (an alias for Mol*'s `select`) to change representation or hide parts of the model, and `focus` to center the camera on a region【F:src/ipymolstar/pdbemolstar.py†L178-L214】.
+Selections are specified with dictionaries known as *query parameters*. They can target chains, residues, atoms and more [src/ipymolstar/pdbemolstar.py#L27-L57](*).
+Use the `color` method (an alias for Mol*'s `select`) to change representation or hide parts of the model, and `focus` to center the camera on a region [F:src/ipymolstar/pdbemolstar.py†L178-L214].
 
 ### Hide chain B and focus on chain A
 ```python
